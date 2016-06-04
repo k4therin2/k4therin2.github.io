@@ -6,10 +6,10 @@
  
  .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
    color: black;
-   background-color: transparent;
+   background-color: white;
 }
 .navbar-default .navbar-nav>li>a {    color: black;
-    background-color: transparent;
+    background-color: white;
       font-family: 'Open Sans';}
  
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
