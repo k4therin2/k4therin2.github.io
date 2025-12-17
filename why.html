@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Katherine Cass - Beliefs, mission, and latest updates.">
+
+    <title>Why | Katherine Cass</title>
+
+    <!-- Modern CSS -->
+    <link href="css/modern.css" rel="stylesheet">
+
+    <!-- Fonts: Libre Baskerville for classic typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        /* LinkedIn Feed Styling */
+        .linkedin-feed {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
+        }
+
+        .linkedin-posts {
+            display: grid;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .linkedin-post-embed {
+            background: #f9f9f9;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .linkedin-post-embed iframe {
+            width: 100%;
+            min-height: 400px;
+            border: none;
+        }
+
+        .linkedin-cta {
+            text-align: center;
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+        }
+
+        .linkedin-cta a {
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a class="nav-brand" href="index.html">K4</a>
+
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a class="nav-who" href="who.html">Who</a></li>
+                <li><a class="nav-what" href="what.html">What</a></li>
+                <li><a class="nav-why active" href="why.html">Why</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main" id="main-content">
+        <header class="page-header page-header-yellow">
+            <h1>Why</h1>
+        </header>
+
+        <section>
+            <p>I build things that help engineers ship with confidence, and while this can be very exciting for engineering organizations these things are often boring to most people (compliance automation, triage systems, etc.). At a high level, I'm big on changing systems and cultures.</p>
+
+            <p>I believe you can be high-impact in tech without sacrificing your health, family, or identity. I care about sustainable careers, especially for women in this industry.</p>
+        </section>
+
+        <section class="linkedin-feed">
+            <h2>Latest from LinkedIn</h2>
+
+            <div class="linkedin-posts">
+                <!-- LinkedIn Post Embed -->
+                <!-- To update: Get embed code from LinkedIn post > "..." menu > "Embed this post" -->
+                <div class="linkedin-post-embed">
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7273421087893434370" height="500" width="100%" frameborder="0" allowfullscreen="" title="Katherine's LinkedIn post about leaving Cisco Meraki"></iframe>
+                </div>
+
+                <!-- Add more posts by copying the div above and changing the iframe src -->
+            </div>
+
+            <div class="linkedin-cta">
+                <p>For more updates, <a href="https://linkedin.com/in/katherinecass">follow me on LinkedIn</a></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Minimal JavaScript for mobile nav -->
+    <script src="js/main.js"></script>
+</body>
+</html>
